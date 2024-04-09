@@ -18,7 +18,7 @@
             <tbody>
                 <tr>
                     <td>01</td>
-                    <td>João da Silva</td>
+                    <td>Vitor da Silva</td>
                     <td>Jacupiranga</td>
                     <td>TDS</td>
                     <td><a href='#' class="btn btn-success">Editar</a></td>
@@ -59,7 +59,7 @@
             </tbody>
             <tfoot>
                 <tr>
-                    <td colspan="2" class="text-center"> Fim da Tabela </td>
+                    <td colspan="6" class="text-center"> Fim da Tabela </td>
                 </tr>
             </tfoot>
         </table>
