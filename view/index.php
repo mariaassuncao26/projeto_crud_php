@@ -1,4 +1,5 @@
     <?php include("blades/top.php") ?>
+    <?php include("../controller/funcao-tabela.php")?>
 
     <div class="container mt-5">
         <a href="v_cadastrar.php" class="btn btn-primary text-white"> Cadastrar </a>
@@ -16,46 +17,9 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>01</td>
-                    <td>Vitor da Silva</td>
-                    <td>Jacupiranga</td>
-                    <td>TDS</td>
-                    <td><a href='#' class="btn btn-success">Editar</a></td>
-                    <td><a href='#' class="btn btn-danger">Excluir</a></td>
-                </tr>
-                <tr>
-                    <td>02</td>
-                    <td>Maria da Silva</td>
-                    <td>Registro</td>
-                    <td>TDS</td>
-                    <td><a href='#' class="btn btn-success">Editar</a></td>
-                    <td><a href='#' class="btn btn-danger">Excluir</a></td>
-                </tr>
-                <tr>
-                    <td>03</td>
-                    <td>Tiemi da Silva</td>
-                    <td>Cajati</td>
-                    <td>TDS</td>
-                    <td><a href='#' class="btn btn-success">Editar</a></td>
-                    <td><a href='#' class="btn btn-danger">Excluir</a></td>
-                </tr>
-                <tr>
-                    <td>04</td>
-                    <td>Kauã da Silva</td>
-                    <td>Cajati</td>
-                    <td>TDS</td>
-                    <td><a href='#' class="btn btn-success">Editar</a></td>
-                    <td><a href='#' class="btn btn-danger">Excluir</a></td>
-                </tr>
-                <tr>
-                    <td>05</td>
-                    <td>Renan da Silva</td>
-                    <td>Miracatu</td>
-                    <td>TDS</td>
-                    <td><a href='#' class="btn btn-success">Editar</a></td>
-                    <td><a href='#' class="btn btn-danger">Excluir</a></td>
-                </tr>
+
+               <?php funcaoTabela() ?>
+
             </tbody>
             <tfoot>
                 <tr>
