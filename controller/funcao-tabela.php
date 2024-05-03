@@ -2,7 +2,7 @@
 
     function funcaoTabela(){
         include("../model/connect.php");
-        $query = mysqli_query($conexao, "SELECT * FROM aluno");
+        $query = mysqli_query($conexao, "SELECT * FROM aluno ORDER BY Aluno_Codigo DESC");
 
         while($exibe = mysqli_fetch_array($query)){
             echo "<tr>
