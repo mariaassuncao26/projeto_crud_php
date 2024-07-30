@@ -5,6 +5,7 @@
     </div>
 
     <div class="container mt-5 border bg-white rounded-3 p-3">
+    <h1>Cadastrar informações</h1>
         <form action="../controller/funcao-create-aluno.php" method="post">
             <label for="" class="form-label"> Nome: </label>
             <input type="text" class="form-control" name="campo_nome">
