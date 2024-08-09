@@ -10,6 +10,7 @@
             <thead>
                 <tr>
                     <th>Código</th>
+                    <th>Foto</th>
                     <th>Nome</th>
                     <th>Cidade</th>
                     <th>Curso</th>
@@ -23,7 +24,7 @@
             </tbody>
             <tfoot>
                 <tr>
-                    <td colspan="6" class="text-center"> Fim da Tabela </td>
+                    <td colspan="7" class="text-center"> Fim da Tabela </td>
                 </tr>
             </tfoot>
         </table>
